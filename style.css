@@ -1,0 +1,374 @@
+.mainhead{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2554c7;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#nostyle, #nav{
+    display: inline-block;
+    list-style-type: none;
+}
+.size{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    background-color: #2554c7;
+    flex: 2;
+    justify-content: center;
+}
+.words{
+    background-color: #2554c7;
+    flex: 3;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.words p{
+    padding: 5px;
+    
+}
+.buttons{
+    background-color: #2554c7;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.button{
+    padding: 3px;
+    margin: 2px;
+    font-size: small;
+    text-align: center;
+    border-color: #348017;
+    color: #348017;
+    cursor: pointer;
+}
+.logo{
+    height: 55px;
+    width: 190px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    background-color: #2554c7;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    /* display: inline; */
+    cursor: pointer;
+}
+.about{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background-color: inherit;
+    cursor: pointer;
+    width: 90px;
+}
+.services, .project{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background-color: inherit;
+    cursor: pointer;
+    width: 160px;
+}
+.donation{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background-color: inherit;
+    cursor: pointer;
+    width: 130px;
+}
+.about:hover, .services:hover, .project:hover, .media:hover, .news:hover, .donation:hover{
+    background-color: #2554c7;
+    color: white;
+    justify-items: center;
+}
+.about-content, .service-content, .project-content, .donation-content{
+    background-color: white;
+    color: black;
+    height: 50px;
+    /* display: block; */
+    align-content: stretch;
+    border: 2px;
+}
+.about-content:hover{
+    background-color: #2554c7;
+}
+.media, .news{
+    background-color: inherit;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+}
+.saylani{
+    float: left;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.dropdown{
+    width: 70%;
+    float: right;
+    background-color: whitesmoke;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    height: 80px;
+    position: fixed;
+}
+#size{
+    height: 535px;
+}
+#carouselExampleIndicators{
+    cursor: pointer;
+}
+.ticker{
+    background-color: #2554c7;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+#ticker1{
+    display: inline;
+    color: lime;
+}
+#ticker2{
+    display: inline;
+    color: white;
+}
+.intro{
+    background-color: whitesmoke;
+    text-align: center;
+}
+#blue{
+    color: blue;
+    font-family: serif;
+    display: inline;
+}
+#green{
+    color: green;
+    font-family: serif;
+    display: inline;
+}
+#white{
+    color: white;
+}
+#dash{
+    font-weight: bolder;
+}
+#introsize{
+    width: 40px;
+    height: 40px;
+}
+.intropara{
+    padding: 50px;
+    margin: 5px;
+}
+#para{
+    text-align: justify;
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+}
+.counters{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: serif;
+}
+.counter{
+    background-color: blue;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    flex-wrap: wrap;
+    /* height: 400px; */
+}
+#numbers{
+    color: white;
+    display: inline;
+    font-weight: bold;
+}
+#fonts{
+    font-size: small;
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+#lightgreen{
+    color: lightgreen;
+    display: inline;
+    font-weight: bold;
+    font-size: small;
+}
+.logo1{
+    padding: 10px;
+}
+#size2{
+    width: 40px;
+    height: 40px;
+}
+.size3{
+    width: 60px;
+    height: 60px;
+}
+.doing{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+.saad{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    margin: 20px;
+}
+#box{
+    box-shadow: whitesmoke;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.009);
+    padding: 40px;
+    width: 380px;
+    height: 180px;
+    background-color: white;
+    list-style: none;
+}
+h5{
+    color: blue;
+    font-family: serif;
+}
+hr{
+    width:6%;
+    text-align:left;
+    margin-left:60px;
+}
+.mission{
+    width: 60%;
+    margin: 70px;
+    /* float: left; */
+}
+h4{
+    margin: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    align-items: center;
+    height: 100px;
+}
+#size4{
+    width: 30px;
+    height: 30px;
+}
+#project-name{
+    display: inline;
+    margin: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#border{
+    background-color: whitesmoke;
+    width: 340px;
+    height: 70px;
+    padding: 20px;
+    border: transparent;
+    border-color: gray;
+    text-align: left;
+    list-style: none;
+}
+.events{
+    width: 35%;
+    text-align: left;
+    
+    position: absolute;
+    top: 2200px;
+    right: 40px;
+}
+#events{
+    width: 200px;
+    padding: 5px;
+    margin-left: 50px;
+}
+#size5{
+    width: 225px;
+    height: 150px;
+}
+.gallery{
+    text-align: center;
+}
+.footer{
+    background-color: #252729;
+    height: 350px;
+    padding: 10px;
+    color: grey;
+}
+.contact{
+    width: 400px;
+    margin: 90px;
+    float: left;
+}
+#white{
+    color: white;
+}
+#size6{
+    width: 15px;
+    height: 15px;
+}
+.links{
+    float: left;
+    position: relative;
+    top: 70px;
+    text-align: left;
+}
+#size7{
+    background-color: white;
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+}
+.connect{
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    position: relative;
+    top: 55px;
+    left: 200px;
+}
+.copy{
+    background-color: #2554c7;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: justify ;
+}
